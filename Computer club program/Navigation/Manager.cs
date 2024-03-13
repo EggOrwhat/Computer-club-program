@@ -30,5 +30,12 @@ namespace Computer_club_program.Navigation
             RegForm RegForm = new RegForm();
             RegForm.Show();
         }
+
+        private void CompButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CompForm CompForm = new CompForm();
+            CompForm.Show();
+        }
     }
 }

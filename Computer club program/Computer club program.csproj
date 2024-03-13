@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Navigation\CompForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navigation\CompForm.Designer.cs">
+      <DependentUpon>CompForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Navigation\Enter.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Navigation\CompForm.resx">
+      <DependentUpon>CompForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Navigation\Enter.resx">
       <DependentUpon>Enter.cs</DependentUpon>
     </EmbeddedResource>
